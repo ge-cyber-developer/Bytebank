@@ -12,6 +12,7 @@ export class ExtratoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
