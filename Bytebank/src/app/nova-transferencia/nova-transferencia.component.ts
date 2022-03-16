@@ -22,7 +22,7 @@ export class NovaTransferencia{
     const valorEmitir = {valor: this.valor, destino: this.destino}; // Pegamos o valor que queremos transmitir
     this.aoTransferir.emit(valorEmitir); // Transmitimos o valor
     // Emitindo o evento para propagamos o valor
-    this.limparCampos();
+    this.limparCampos(); 
   }
 
   limparCampos(){
